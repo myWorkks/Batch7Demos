@@ -7,10 +7,10 @@ public class QueueMethods {
 
 	public static void main(String[] args) {
 		Queue<Integer> q = new ArrayDeque<Integer>();
-//		q.offer(1);
-//		q.offer(10);
-//		q.offer(4);
-//		q.offer(20);
+		q.offer(1);
+		q.offer(10);
+		q.offer(4);
+		q.offer(20);
 
 		System.out.println(q);
 		System.out.println("poll method " + q.poll());
