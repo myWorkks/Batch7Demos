@@ -8,6 +8,11 @@ interface I {
 }
 
 public class LamdaDemo1 implements I {
+	static int sum(int a, int b) {
+
+		return a + b;
+	}
+
 	@Override
 	public void m1() {
 		System.out.println("this is m1 method");
